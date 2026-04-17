@@ -1,0 +1,14 @@
+{
+  "name": "audioviz-keys-standalone",
+  "version": "1.0.0",
+  "description": "A standalone audio-visual synthesizer.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve -p 9002",
+    "start": "serve -p 8080",
+    "build": "echo 'No build required for standalone'"
+  },
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}
